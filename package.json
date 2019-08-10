@@ -1,0 +1,12 @@
+{
+  "name": "medellin_heritage",
+  "version": "0.0.1",
+  "description": "A resource for learning about Medellin's heritage",
+  "main": "main.js",
+  "author": "Mobility Labs",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "cd ./server && npm install && cd ../client && npm install && node_modules/.bin/gulp --production",
+    "start": "node ./server/server.js"
+  }
+}
