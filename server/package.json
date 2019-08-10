@@ -1,0 +1,14 @@
+{
+  "name": "medellin_heritage_server",
+  "version": "0.0.1",
+  "description": "A server for the medellin_heritage_client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mobility Labs",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.12.3"
+  }
+}
